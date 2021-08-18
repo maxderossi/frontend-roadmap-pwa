@@ -1,0 +1,59 @@
+{
+  "name": "Frontend Roadmap",
+  "short_name": "Frontend Roadmap",
+  "description": "Welcome to F.R.!, with this PWA you will have a route guide to become a frontend developer",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "./img/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/favicon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
+}

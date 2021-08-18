@@ -1,0 +1,200 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "helvetica";
+  background: rgb(255, 255, 255);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img:not(.logo) {
+  width: 100%;
+}
+img {
+  display: block;
+}
+
+.title img:hover {
+  transform: rotate(360deg);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0.25rem;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: "arial";
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+
+.btn {
+  background: transparent;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 0.25rem;
+  display: inline-block;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+
+/* Section */
+.section {
+  padding: 5rem 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.title {
+  margin-top: 6vh;
+  margin-bottom: 3.1rem;
+}
+.title h2 {
+  font-family: "helvetica";
+  text-align: center;
+  letter-spacing: normal;
+}
+.section-center {
+  max-width: 620px;
+}
+.container {
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  margin-bottom: 2rem;
+}
+.container-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.container-title p {
+  margin-bottom: 0;
+  letter-spacing: 0.25rem;
+  color: white;
+  font-weight: 700;
+}
+.container-btn {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s linear;
+}
+.container-btn:hover {
+  transform: rotate(180deg);
+}
+.container-text {
+  padding: 1rem 0 1.5rem 0;
+  border-top: 1px solid rgb(255, 255, 255);
+  letter-spacing: 0.5px;
+  font-size: medium;
+}
+.container-text p {
+  margin-bottom: 0;
+  padding-bottom: 13px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.container-text h4 {
+  margin-top: 5px;
+  margin-bottom: -5px;
+  padding: 1rem 0 1.5rem 0rem;
+  color: white;
+}
+
+.container-text ul {
+  padding: 0rem 0 1.5rem 0rem;
+  color: white;
+}
+
+.container-text a {
+}
+
+.container-text a:hover {
+  font-weight: 600;
+}
+
+/* hidden*/
+.container-text {
+  display: none;
+}
+.show-text .container-text {
+  display: block;
+}
+.minus-icon {
+  display: none;
+}
+.show-text .minus-icon {
+  display: inline;
+}
+.show-text .plus-icon {
+  display: none;
+}
